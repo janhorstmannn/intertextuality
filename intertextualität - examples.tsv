@@ -62,7 +62,7 @@ Work	Work	2	Text	Text	Single text	Single text	Joyce_Ulysses	Homer_Ulysses	>	tran
 Work	Work	2	Text	Text	Single text	Single text	Mann_Doktor-Faustus	Goethe_Faust	>	transforms
 Work	Work	2	Text	Text	Single text	Single text	Mann_Lotte-in-Weimar	Goethe_Die-Leiden-des-jungen-Werther	>	alludes
 Work	Segment	2	Text	Text	Single text	Text passage	Grass_Ein-weites-Feld Schmidt_Bottom's-Dream	Fontante_Effi-Briest_ein weites Feld Shakespeare_Midsummer-Night's-Dream	>	quotes
-Work	Segment	2	Text	Text	Single text	Text passage	Marías_Corazón-tan-blanco	Shakespeare_Macbeth_"To wear a heart so white"		
+Work	Segment	2	Text	Text	Single text	Text passage	Marías_Corazón-tan-blanco	Shakespeare_Macbeth_To wear a heart so white		
 Work	Segment	1	Text	Art	Single text	Art section	Tucholsky_Das-Lächeln-der-Mona-Lisa	da-Vinci_Mona-Lisa_mouth		
 Work	Work	1	Text	Art	Single text	Art work	Chevalier_Girl-with-a-perl-earring	Vermeer_Meisje-met-de-parel		
 Work	Work	1	Text	Art	Single text	Art work	Dante_La-divina-commedia	Michelino_La-divina-commedia-di-Dante		
