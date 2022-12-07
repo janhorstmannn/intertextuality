@@ -1,0 +1,73 @@
+Main Category	Main Category	Text Relation	Medium	Medium	Sub Category	Sub Category	Formal Argument	Formal Argument	Direction	Relation
+Segment	Segment	2	Text	Text	Text passage	Text passage	Tolkien_The-Lord-of-the-Rings_“abandon all hope, ye who enter here.“	Dante_La-divina-commedia_“Lasciate ogne speranza, voi ch'intrate“ (Inferno, Canto III)	>	quotes
+Segment	Segment	2	Text	Text	Text passage	Text passage	Arno_Schmid-Zettels-Traum (title)	Shakespeare_Midsummer-Night's-Dream	>	quotes
+Segment	Segment	1	Text	Art	Text passage	Art section	Mann_Tod-in-Venedig	Thorn extractor		
+Segment	Segment	1	Text	Music	Text passage	Sequence of music	Gen.1.1_Chaos	Hayden-Oratorio-Creation (HOB XXI:2)_1.a		
+System	Work	2	Text	Text	Text genre	Single text	Robinsonades	Defoe_Robinson-Crusoe		
+System	Work	2	Text	Text	Text genre	Single text	Knight novel	Cervantes_Don-Quijote		
+System	Work	2	Text	Text	Text genre	Single text	Fantasy	Tolkien_The-Lord-of-the-Rings	>	emerged-from
+System	Work	2	Text	Text	Text genre	Single text	Sonnet	Shakespeare_Sonnet-18		
+System	Work	2	Text	Text	Text genre	Single text	Bildungsroman	Goethe_Wilhelm-Meisters-Lehrjahre		
+System	System	2	Text	Text	Text genre	Text genre	Antihymn	Hymn	>	alludes-satyrically
+System	System	2	Text	Text	Text genre	Text genre	Review	Reviewed text		
+System	System	2	Text	Text	Text genre	Text genre	Critical edition	Edited text		
+System	Segment	2	Text	Text	Text genre	Text passage	Sonnet	Shakespeare_Sonnet-18		
+System	Segment	2	Text	Text	Text genre	Text passage	Ekphrasis	Homer_Illiad_Achilles-shield		
+System	Segment	1	Text	Art	Text genre	Art section	Passion story	Bruegel_The-crucifixion-of-Christ		
+System	System	1	Text	Art	Text genre	Art genre	Literary portrait	Portrait	>	parallels-system
+System	System	1	Text	Art	Text genre	Art genre	Landscape description	Landscape painting		
+System	Work	1	Text	Art	Text genre	Art work	Proverbs	Bruguel_The Dutch proverbs		
+System	System	1	Text	Music	Text genre	Music genre	Poetry cycle	Song cycle		
+System	System	1	Text	Music	Text genre	Music genre	Landscape description	Programmatic music		
+System	Segment	1	Text	Music	Text genre	Sequence of music	Dialectic (literary argument, philosophical genre)	Zappa_Eat That Question, creshendo part		
+System	Segment	1	Text	Music	Text genre	Sequence of music		Tristan-chord		
+System	Segment	1	Text	Music	Text genre	Sequence of music	Ode	Beethoven_9th-symphony-4th-movement		
+System	Work	1	Text	Music	Text genre	Piece of music	Hymns	La Marseillaise		
+Work	Segment	1	Music	Text	Piece of music	Text passage	Schubert_Gretchen-am-Spinnrade	Goethe_Faust-Passage		
+Work	Segment	0	Music	Art	Piece of music	Art section				
+Work	Work	0	Music	Art	Piece of music	Art work				
+Work	Segment	0	Music	Music	Piece of music	Sequence of music				
+Work	Work	0	Music	Music	Piece of music	Piece of music	Mussorgsky_Pictures-at-an-Exhibition	Ravel_Pictures-at-an-Exhibition		
+Segment	Segment	0	Music	Art	Sequence of music	Art section				
+Segment	Segment	0	Music	Music	Sequence of music	Sequence of music	Abba_Gimme-Gimme-Gimme	Madonna_Hung-up		
+System	Work	1	Music	Text	Music genre	Single text	Spiritual music	Bible		
+System	Work	1	Music	Text	Music genre	Single text	Twelve-tone music	Mann_Doktor-Faustus		
+System	Segment	1	Music	Text	Music genre	Text passage	Passion	Passon story of Jesus		
+System	Segment	0	Music	Art	Music genre	Art section				
+System	System	0	Music	Art	Music genre	Art genre				
+System	Work	0	Music	Art	Music genre	Art work				
+System	System	0	Music	Music	Music genre	Music genre	Pop song	Art song		
+System	Segment	0	Music	Music	Music genre	Sequence of music	Affect formula	small-second-down (sigh motif)		
+System	Work	0	Music	Music	Music genre	Piece of music				
+Work	Segment	1	Art	Text	Art work	Text passage	Isenheimer Altar	Lucase:23		
+Work	Segment	1	Art	Text	Art work	Text passage	Antique_thorn-extractor	Mann_Tod-in-Venedig_thorn-extractor-reflections		
+Work	Segment	1	Art	Text	Art work	Text passage	Da-Vinci_Mona-Lisa	Brown_The-Da-Vinci-Code		
+Work	Segment	0	Art	Art	Art work	Art section				
+Work	Work	0	Art	Art	Art work	Art work	Banksy_Paranoid-Pictures	Warhol_Paramount-Pictures	>	parodies
+Work	Segment	0	Art	Music	Art work	Sequence of music				
+System	System	1	Art	Text	Art style	Literary style	Expressionism	Expressionism		
+System	System	0	Art	Art	Art style	Art style	Expressionism	Neoexpressionism		
+System	Work	1	Art	Text	Art genre	Single text	Icon painting	Bible		
+System	Work	1	Art	Text	Art genre	Single text	Icon painting	Apocrypha_4-Book-Ezra		
+System	Work	1	Art	Text	Art genre	Single text	Icon painting	Life story of St. Ambrose		
+System	Segment	1	Art	Text	Art genre	Text passage	Images of the Virgin Mary	Bible passages about Mary		
+System	Segment	1	Art	Text	Art genre	Text passage	Church crosses	Lucase:23		
+System	Segment	0	Art	Art	Art genre	Art section				
+System	System	0	Art	Art	Art genre	Art genre				
+System	Work	0	Art	Art	Art genre	Art work				
+System	Segment	0	Art	Music	Art genre	Sequence of music				
+System	Work	0	Art	Music	Art genre	Piece of music				
+Work	Work	2	Text	Text	Single text	Single text	Wyss_Swiss-Family-Robinson	Defoe_Robinson-Crusoe	>	alludes
+Work	Work	2	Text	Text	Single text	Single text	Joyce_Ulysses	Homer_Ulysses	>	transforms
+Work	Work	2	Text	Text	Single text	Single text	Mann_Doktor-Faustus	Goethe_Faust	>	transforms
+Work	Work	2	Text	Text	Single text	Single text	Mann_Lotte-in-Weimar	Goethe_Die-Leiden-des-jungen-Werther	>	alludes
+Work	Segment	2	Text	Text	Single text	Text passage	Grass_Ein-weites-Feld Schmidt_Bottom's-Dream	Fontante_Effi-Briest_"ein weites Feld" Shakespeare_Midsummer-Night's-Dream	>	quotes
+Work	Segment	2	Text	Text	Single text	Text passage	Marías_Corazón-tan-blanco	Shakespeare_Macbeth_"To wear a heart so white"		
+Work	Segment	1	Text	Art	Single text	Art section	Tucholsky_Das-Lächeln-der-Mona-Lisa	da-Vinci_Mona-Lisa_mouth		
+Work	Work	1	Text	Art	Single text	Art work	Chevalier_Girl-with-a-perl-earring	Vermeer_Meisje-met-de-parel		
+Work	Work	1	Text	Art	Single text	Art work	Dante_La-divina-commedia	Michelino_La-divina-commedia-di-Dante		
+Work	Segment	1	Text	Music	Single text	Sequence of music	Zweig_Georg-Friedrich-Händels-Auferstehung	Händel_Oratorium-Messias_Halleluja		
+Work	Segment	1	Text	Music	Single text	Sequence of music	Hans-Ulrich_Treichel-Tristan-chord	Tristan-chord		
+Work	Work	1	Text	Music	Single text	Piece of music	Büchner_Woyzeck	Berg_Wozzeck		
+Work	Work	1	Text	Music	Single text	Piece of music	Zweig_Georg-Friedrich-Händels-Auferstehung	Händel_Oratorium-Messias		
+Segment	Segment	0	Art	Art	Art section	Art section				
