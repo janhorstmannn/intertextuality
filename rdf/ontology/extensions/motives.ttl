@@ -1,0 +1,19 @@
+@prefix m: <https://intertextuality.org/extensions/motives#> .
+@prefix : <https://intertextuality.org/abstract#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://intertextuality.org/extensions/motives>
+    a owl:Ontology ;
+    rdfs:Label "Motives"@en .
+
+m:Motive
+    rdfs:subClassOf :Mediator ;
+    rdfs:Label "Motive"@en ;
+    rdfs:Comment "A motive can function as a intertextual mediator."@en .
+
+# Potentially endless list of motives:
+
+m:HorsesInAPigsty
+    a m:Motive ;
+    rdfs:Label "Motive \"Horses in a pigsty\""@en .
