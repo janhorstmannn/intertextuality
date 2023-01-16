@@ -17,7 +17,7 @@ ex:itr2
     :here ex:kohlhaasPigsty ;
     :there ex:iliadAutomedonsPlummet ;
     :specifiedBy _undefSpec ;
-    :mediatedBy m:HorsesAndGoats ;
+    :mediatedBy m:HorsesAndGeese ;
     rdfs:Comment "intertextual relation between segments of Kleist's \"Michael Kohlhaas\" and Homer's \"Iliad\"."@en .
 
 ex:itr3
@@ -32,10 +32,10 @@ _undefSpec
     a :IntertextualSpecification
     rdfs:Comment "The intertextual relation is not further specified by Borgstedt"@en .
 
-m:HorsesAndGoats
+m:HorsesAndGeese
     a m:Motive
-    rdfs:Label ""@en .
-
+    rdfs:Label "Horses and Geese"@en ;
+    rdfs:Comment "A Horse and a goose, or several of them in some association, like substitution, simile, juxtaposition etc."@en .
 
 ex:landarztPigsty
     oa:hasSource <https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qn00.0/data>;
