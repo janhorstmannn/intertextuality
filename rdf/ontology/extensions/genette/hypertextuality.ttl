@@ -1,0 +1,58 @@
+@prefix g: <https://intertextuality.org/extensions/genette/hypertextuality#> .
+@prefix : <https://intertextuality.org/abstract#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://intertextuality.org/extensions/genette/hypertextuality>
+    a owl:Ontology ;
+    owl:imports <https://intertextuality.org/abstract> ;
+    rdfs:Label "Genette's Hypertextual Relations"@en ;
+    rdfs:Comment "Ontology formalizing Gérard Genettes system of hypertextual relations as developed in his 1982 book 'Palimpsests'."@en .
+
+g:HypertextualRelation
+    rdfs:subClassOf :IntertextualSpecification ;
+    owl:ObjectOneOf (g:parody g:pastiche g:travesty g:persiflage g:transposition g:replication) .
+
+g:RelationalType
+    owl:ObjectOneOf (g:transformation g:imitation) .
+
+g:ModalType
+    owl:ObjectOneOf (g:playfully g:satirically g:seriously) .
+
+g:hasRelationalType
+    owl:domain g:HypertextualRelation ;
+    owl:range g:RelationalType .
+
+g:hasModalType
+    owl:domain g:HypertextualRelation ;
+    owl:range g:ModalType .
+
+g:parody
+    g:hasRelationalType g:transformation ;
+    g:hasModelType g:playfully ;
+    rdfs:Label "Parody, i.e. a playful transformation"@en .
+
+g:pastiche
+    g:hasRelationalType g:imitation ;
+    g:hasModalType g:playfully ;
+    rdfs:Label "Pastiche, i.e. a playful imitation"@en .
+
+g:travesty
+    g:hasRelationalType g:transformation ;
+    g:hasModalType g:satirically ;
+    rdfs:Label "Travesty, i.e. a satirical transformation"@en .
+
+g:persiflage
+    g:hasRelationalType g:imitation ;
+    g:hasModalType g:satirically ;
+    rdfs:Label "Persiflage, i.e. a satirical imitation"@en .
+
+g:transposition
+    g:hasRelationalType g:transformation ;
+    g:hasModalType g:seriously ;
+    rdfs:Label "Transposition, i.e. a serious transformation"@en .
+
+g:replication
+    g:hasRelationalType g:imitation ;
+    g:hasModalType g:seriously ;
+    rdfs:Label "Replication, i.e. a serious imitation"@en .

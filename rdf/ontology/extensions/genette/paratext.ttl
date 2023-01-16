@@ -1,0 +1,17 @@
+@prefix pt: <https://intertextuality.org/extensions/genette/paratext#> .
+@prefix : <https://intertextuality.org/abstract#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://intertextuality.org/extensions/genette/paratext>
+    a owl:Ontology ;
+    rdfs:Label "Paratextual Signals Ontology"@en ;
+    rdfs:Comment "An ontology for paratextual signals that inaugurate intertextual relations according to Gérard Genette."@en .
+
+pt:ParatextualSignal
+    rdfs:subClassOf :Mediator ;
+    rdfs:Label "Paratextual Signal"@en .
+
+# an open list of paratextual signals:
+
+pt:Title a pt:ParatextualSignal .
