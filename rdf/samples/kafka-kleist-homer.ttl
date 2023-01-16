@@ -1,0 +1,55 @@
+@prefix ex: <http://example.com/> .
+@prefix : <https://intertextuality.org/abstract#> .
+@prefix m: <https://intertextuality.org/extensions/motives#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix oa: <http://www.w3.org/ns/oa#> .
+
+ex:itr1
+    a :IntertextualRelation ;
+    :here ex:landarztPigsty ;
+    :there ex:kohlhaasPigsty ;
+    :specifiedBy _undefSpec ;
+    :mediatedBy m:HorsesInAPigsty ;
+    rdfs:Comment "intertextual relation between segments of Kafka's \"Ein Landarzt\" and Kleist's \"Michael Kohlhaas\"."@en .
+
+ex:itr2
+    a :IntertextualRelation ;
+    :here ex:kohlhaasPigsty ;
+    :there ex:iliadAutomedonsPlummet ;
+    :specifiedBy _undefSpec ;
+    :mediatedBy m:HorsesAndGoats ;
+    rdfs:Comment "intertextual relation between segments of Kleist's \"Michael Kohlhaas\" and Homer's \"Iliad\"."@en .
+
+ex:itr3
+    a :IntertextualRelation ;
+    :here ex:landarztPigsty ;
+    :there ex:iliadAutomedonsPlummet ;
+    :specifiedBy _undefSepc ;
+    :mediatedBy ex:itr2 ;
+    rdfs:Comment "a transitive intertextual relation mediated by ex:itr1 and ex:itr2."@en .
+
+_undefSpec
+    a :IntertextualSpecification
+    rdfs:Comment "The intertextual relation is not further specified by Borgstedt"@en .
+
+m:HorsesAndGoats
+    a m:Motive
+    rdfs:Label ""@en .
+
+
+ex:landarztPigsty
+    oa:hasSource <https://textgridlab.org/1.0/tgcrud-public/rest/textgrid:qn00.0/data>;
+    oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "zerstreut, gequält stieß ich mit dem Fuß an die brüchige Tür des schon seit Jahren unbenützten Schweinestalles. Sie öffnete sich und klappte in den Angeln auf und zu. Wärme und Geruch wie von Pferden kam hervor"@de
+        ] .
+
+ex:kohlhaasPigsty
+    oa:hasSource <https://textgridlab.org/1.0/aggregator/text/textgrid:r0th.0> ;
+    oa:hasSelector [
+        a oa:TextQuoteSelector ;
+        oa:exact "so zeigte er mir einen Schweinekoben an … in welchem … ich nicht aufrecht stehen konnte. … Sie [die Pferde] guckten nun wie Gänse aus dem Dach vor."@de
+        ] .
+
+ex:iliadAutomedonsPlummet
+    a :Reference . # TODO
