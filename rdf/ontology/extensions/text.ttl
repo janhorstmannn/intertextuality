@@ -33,9 +33,9 @@ t:TextGenre
 t:here
     rdfs:subPropertyOf :here ;
     rdfs:domain :IntertextualRelation ;
-    rdfs:range :tText .
+    rdfs:range t:Text .
 
 t:there
     rdfs:subPropertyOf :here ;
     rdfs:domain :IntertextualRelation ;
-    rdfs:range :tText .
+    rdfs:range t:Text .
