@@ -14,4 +14,4 @@ pt:ParatextualSignal
 
 # an open list of paratextual signals:
 
-pt:Title a pt:ParatextualSignal .
+pt:titleCorrespondence a pt:ParatextualSignal .
