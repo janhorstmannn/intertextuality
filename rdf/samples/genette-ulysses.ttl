@@ -5,12 +5,10 @@
 @prefix : <https://intertextuality.org/abstract#> .
 
 gex:ulysses a t:SingleText .
-gex:ulyssesTitle a pt:Title ; rdfs:label "Ulysses" .
 gex:odysseus a t:SingleText .
-gex:odysseusTitle a pt:Title ; rdfs:label "Odysseus" .
 
 gex:ulysses_odysseus a :IntertextualRelation ;
     :here gex:ulysses ;
     :there gex:odysseus ;
     :specifiedBy g:transposition ;
-    :mediatedBy gex:ulyssesTitle, gex:odysseusTitle .
+    :mediatedBy pt:titleCorrespondence .
